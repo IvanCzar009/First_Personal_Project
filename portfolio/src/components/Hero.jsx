@@ -29,7 +29,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="hero-visual">
-          <div className="gradient-orb"></div>
+          <div className="profile-container">
+            <img 
+              src="/profile.jpg" 
+              alt="Ivan Czar P. Lumanglas" 
+              className="profile-picture"
+            />
+            <div className="profile-glow"></div>
+          </div>
         </div>
       </div>
     </section>
